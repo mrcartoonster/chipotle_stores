@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapideta"
+version = "0.1.0"
+description = ""
+authors = ["Evan Baird <mrcartoonster@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+uvicorn = "^0.12.2"
+fastapi = "^0.61.2"
+yakutils = "^1.7.0"
+deta = "^0.7"
+ipython = "^7.19.0"
+prettyprinter = "^0.18.0"
+environs = "^9.2.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.8.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
